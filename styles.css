@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #4f5e65;
+}
+
+.container {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #d9d9d9;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.task-item::before {
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: background-color 0.3s ease-in-out; /
+}
+.task-item:hover::before {
+    background-color: rgba(0, 0, 0, 0.2); 
+}
+.high::before {
+    background-color: red;
+}
+.medium::before {
+    background-color: orange;
+}
+
+.low::before {
+
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type="text"], select, button {
+    display: block;
+    width: 99%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+button{
+    background-color: #0e0f10;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: darkgrey;
+    color:black;
+}
+
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f9f9f9;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete-btn {
+background-color: #d0cbcb;
+color: #0e0f10;
+width: 25%;
+padding: 4px 2px;
+border: none;
+cursor: pointer;
+border-radius: 6px;
+transition: background-color 0.3s ease-in-out;
+}
+.delete-btn:hover{
+
+    background-color: #EE4B2B; 
+    color: lightgray; 
+
+}
+/* for responsive page*/
+@media screen and (max-width: 600px) {
+    .container {
+        max-width: 90%;
+        margin: 20px auto;
+        padding: 10px;
+    }
+    
+    input[type="text"], select, button {
+        font-size: 14px;
+    }
+
+    .delete-btn {
+        width: 30%;
+        padding: 2px;
+    }
+}
