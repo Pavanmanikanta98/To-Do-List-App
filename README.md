@@ -16,4 +16,4 @@ A simple To-Do List web application with priority highlighting.
 "Check out the Live To-Do List App"
   https://pavanmanikanta98.github.io/To-Do-List-App/
 - ## Screenshots
-- ![Screenshot 2023-08-07 002157](https://github.com/Pavanmanikanta98/To-Do-List-App/assets/120953215/0cacd2ab-da62-4ba1-bf46-857e49025e45)
+  ![Screenshot 2023-08-07 002157](https://github.com/Pavanmanikanta98/To-Do-List-App/assets/120953215/0cacd2ab-da62-4ba1-bf46-857e49025e45)
