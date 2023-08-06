@@ -5,7 +5,7 @@ A simple To-Do List web application with priority highlighting.
 
 - Add tasks with different priorities: High, Medium, Low.
 - Delete tasks from the list.
-- Priority-based highlighting for easy identification.## Priority Highlighting
+- Priority-based highlighting for easy identification.
 
 ## Priority Highlighting
 
