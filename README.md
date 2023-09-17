@@ -1,5 +1,5 @@
 # To-Do-List-App
-A simple To-Do List web application with priority highlighting.
+ A simple To-Do List web application with priority highlighting.
 
 ## Features
 
